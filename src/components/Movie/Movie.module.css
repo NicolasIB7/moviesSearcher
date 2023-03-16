@@ -1,0 +1,21 @@
+.movieDetail {
+    background-color: #d0e4fdaf;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .movieDetail h4 {
+    margin-top: 0;
+  }
+  
+  .movieDetail img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+  }
+  

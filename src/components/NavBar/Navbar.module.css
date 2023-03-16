@@ -1,0 +1,44 @@
+/* Navbar.module.css */
+
+.navbar {
+    background-color: #1a1a1ae8;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  #logoHenry {
+    margin-right: 10px;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .listitem {
+    margin-right: 120px;
+    font-size: 18px;
+    
+  }
+  
+  .listitem a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .listitem a:hover {
+    color: #ebc52c;
+  }
+  
+  .active {
+    color: #ebc52c;
+    font-weight: bold;
+    margin-right: 50px;
+  }
+  
